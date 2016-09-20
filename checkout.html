@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkout|Recuerda Nicaragua</title>
+    <!-- <link rel="stylesheet" href="css/categorias-design.css" media="all"> -->
+    <link rel="stylesheet" type="text/css" href="css/checkout-design.css" media="all">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+    <div id="caja-fondo" class="boxita blurred-bg"></div>
+    <div class="box content">
+        <h1 class="color">Carrito de Compras</h1>
+        <table style="width:100%">
+            <tr>
+                <th>Foto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+            </tr>
+            <tr>
+                <td><img src="RES/t-shirts/nica_01.jpg" alt="Camiseta Mujer" width="200px" height="200px" onmouseover="producto_detalle()"></td>
+                <td>
+                    <h2>Camiseta para mujer Nicaragua</h2></td>
+                <td>
+                    <h4>200C$</h4></td>
+                <td>
+                    <h4>1</h4></td>
+            </tr>
+        </table>
+        <div class="imagencita">
+            <h3>COMPRAR YA !<img id="carrito" src="RES/carrito.png" alt="carrito" onclick="congrats()" width="40px" height="40px"></h3>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+function producto_detalle() {
+    alert("Camiseta Nicaragua 100% algodón");
+}
+
+function congrats(){
+    alert("Producto comprado!");
+}
+</script>

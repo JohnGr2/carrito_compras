@@ -4,39 +4,39 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
 
 body{
-	background: url(http://www.elobservadoreconomico.com/files/articulo/1277755972_ONArtesanias16.JPG);
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+    background: url(http://www.elobservadoreconomico.com/files/articulo/1277755972_ONArtesanias16.JPG);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
 }
 .blurred-bg{
 
-	background: white;
-	opacity: 0.8;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
+    background: white;
+    opacity: 0.8;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 .box{
-	position: fixed;
-	width:1200px;
-	height:600px;
-  	left:-webkit-calc( 50% - 620px );
-  	left:-moz-calc( 50% - 620px );
-  	top:15%;
-	position:absolute;
-	border-radius:5px;
-	border:1px solid rgba(0,0,0,.3);
-	padding:20px;
-	text-align: center;
-	text-shadow:0 1px 1px rgba(0,0,0,.4);  
-  	.content{
+    position: fixed;
+    width:1200px;
+    height:400px;
+    left:-webkit-calc( 50% - 620px );
+    left:-moz-calc( 50% - 620px );
+    top:15%;
+    position:absolute;
+    border-radius:5px;
+    border:1px solid rgba(0,0,0,.3);
+    padding:20px;
+    text-align: center;
+    text-shadow:0 1px 1px rgba(0,0,0,.4);  
+    .content{
     margin: auto;
-	}
+    }
 }
 
-/*.boxita{
+.boxita{
 
     position: relative;
     width:1200px;
@@ -54,17 +54,17 @@ body{
     margin: auto;
     }
 
-}*/
+}
 
 h2,a,p{
-	color:black;
-	font-weight:500;
-	padding-left: 15px;
+    color:black;
+    font-weight:500;
+    padding-left: 15px;
   
-	.tinted &{
-		color:white;
-		text-shadow:0 1px 1px rgba(255,255,255,.1);
-	}
+    .tinted &{
+        color:white;
+        text-shadow:0 1px 1px rgba(255,255,255,.1);
+    }
 }
 h2{ font-size: 18px }
 
@@ -80,8 +80,8 @@ h1 {
 }
 
 .wrapper {
-	position: absolute;
-	top: 1px;
+    position: absolute;
+    top: 1px;
     width: 705px;
     margin: 20px auto;
     
@@ -90,8 +90,8 @@ h1 {
     clear: both;
 }
 .items {
-	position: absolute;
-	left: 35px;
+    position: absolute;
+    left: 35px;
     display:inline-flex;
     margin: 20px 10px;
 }
@@ -122,10 +122,10 @@ span {
     float: right;
 }
 .shopping-cart {
-	position: absolute;
-	
-	top: 40px;
-	left: 1100px;
+    position: absolute;
+    
+    top: 40px;
+    left: 1100px;
     display: inline-block;
     
     width: 24px;
@@ -133,21 +133,15 @@ span {
     margin: 0 10px 0 0;
 }
 
-.shopping-home{
-    position: absolute;
-    top: 40px;
-    left: 1050px;
-}
-
 .enlaces {
-	position: absolute;
-	color: black;
-	top: 700px;
-	left: 580px;
+    position: absolute;
+    color: black;
+    top: 630px;
+    left: 580px;
 }
 
 .color{
-	background-color: #ff8000;
+    background-color: #ff8000;
 }
 
 th, td {
